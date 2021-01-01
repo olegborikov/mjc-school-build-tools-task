@@ -41,7 +41,3 @@ build.dependsOn publishToMavenLocal
 test {
     useJUnitPlatform()
 }
-
-java {
-    withSourcesJar()
-}
